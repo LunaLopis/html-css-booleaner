@@ -1,0 +1,36 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box; 
+}
+
+header {
+    background-color: rgb(56, 151, 192);
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    color: white;
+    padding: 150px 10px 10px 20px;
+    background-size: 400px;
+}
+
+#autore {
+    color: rgb(65, 184, 216);
+}
+
+.lista {
+    margin-left: 20px;
+}
+
+table, th, td {
+
+    border:none;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: rgb(73, 169, 196);
+}
+
+.azzurro {
+    background-color: rgb(105, 182, 234);
+}
