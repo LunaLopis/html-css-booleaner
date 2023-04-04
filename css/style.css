@@ -13,18 +13,27 @@ header {
     background-size: 400px;
 }
 
+.testo {
+    margin-top: 30px;
+}
+
 #autore {
     color: rgb(65, 184, 216);
 }
 
 .lista {
     margin-left: 20px;
+    margin-top:30px;
 }
 
 table, th, td {
 
     border:none;
     border-collapse: collapse;
+    table-layout:fixed;
+    width: 100%;
+    margin-top:30px;
+
 }
 
 thead {
@@ -33,4 +42,42 @@ thead {
 
 .azzurro {
     background-color: rgb(105, 182, 234);
+}
+
+.altrotesto {
+    margin-top: 35px;
+}
+
+.underline {
+    background-color: yellow;
+}
+
+h4 {
+    color: grey;
+    margin-top: 30px;
+}
+
+.monitor {
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+    width: 312px;
+    height: 208px;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;   
+}
+
+.graph {
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+    width: 311px;
+    height: 207px;
+    margin-top: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.loremfoto {
+color: white;
+font-size:30px;
 }
